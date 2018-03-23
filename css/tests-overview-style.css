@@ -1,0 +1,50 @@
+.test-overview{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:black;
+    border-radius: 2px;
+    margin-bottom: 14px;
+}
+
+
+
+.active-switch-wrapper{
+    align-self: center;
+    margin:0 3em;
+}
+
+h2, h3{
+   font-weight: normal;
+}
+.test-overview h3{
+    margin: 0 0 8px;
+    padding:18px 20px 16px;
+    width: 100%;
+}
+
+.test-overview div{
+    color:rgb(220,200,200);
+}
+
+
+
+
+input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 1.4em;
+    background: black;
+    height: 1.4em;
+    border-radius: 50%;
+    border: 0.2em solid white;
+    outline:none;
+}
+
+
+input[type='radio']:checked {
+    background: green;
+}
+
+

@@ -1,0 +1,444 @@
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #181818;
+    color:white;
+}
+
+body{
+    top:0;
+    font-family:Roboto,sans-serif;
+}
+
+/* source: https://stackoverflow.com/a/4407335 */
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.muted-link, .muted-link:active, .muted-link:visited,  .muted-link:focus{
+    color:rgba(255,255,255,0.8);
+    text-decoration:none!important;
+}
+
+.muted-link:hover{
+    color:white;
+}
+
+.row{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+
+body>.row{
+    margin:5vh 20px;
+    flex-direction: column;
+}
+
+.title{
+    position: relative;
+    margin:0;
+    padding:10px;
+    text-align: center;
+    background: black;
+}
+
+.title h1{
+    display:inline-block;
+    position:relative;
+    margin-top:12px;
+    margin-bottom:16px;
+    font-weight: 100;
+    color: #b1b1b1;
+}
+
+.title .description{
+    display:inline-block;
+    padding-right:2em;
+    color:white;
+    cursor:pointer;
+    position:relative;
+ }
+.title .description .caret{
+   top:0.6em;
+}
+
+.title .project-drop-down{
+    position: absolute;
+    display:none;
+    z-index:10;
+    top: 2.5em;
+    font-size: 0.8em;
+    right:0;
+    left:0;
+    background: rgb(10, 10, 10);
+    text-align:left;
+    padding:8px 12px 16px;
+}
+
+@media (max-width: 767px){
+    #login {
+        display:none;
+    }
+}
+
+@media (min-width: 768px){
+    #login{
+        position: absolute;
+        top:32px;
+        right:48px;
+    }
+}
+
+
+
+#map {
+    height: 60vh;
+    width: 100%;
+}
+
+#filter{
+    position: relative;
+    margin: 32px 0 64px;
+    background: #151515;
+}
+
+#sync{
+    position: fixed;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 425px){
+    body>.row{
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .title h1{
+        margin-top:0;
+        margin-bottom:0;
+    }
+
+}
+
+@media (max-width: 1023px){
+    #sync{
+        bottom:32px;
+        right:24px;
+        height:64px;
+        width:64px;
+        border-radius:50%;
+        background: #4CAF50;
+        box-shadow:rgba(0, 0, 0, 0.7) 3px 3px 14px 5px;
+    }
+
+    #sync:hover{
+        background: hsl(122, 56%, 47%);
+        box-shadow: #000000 3px 3px 14px 5px
+    }
+
+}
+
+@media (min-width: 1024px){
+    body>.row{
+        margin-top:10vh;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #map {
+        max-height: 60vh;
+        min-height: 400px;
+        width:60%;
+        max-width:1000px;
+    }
+    #filter{
+        width:30%;
+        margin:0 32px;
+        max-width: 400px;
+    }
+
+
+    #sync{
+        position: absolute;
+        top:14px;
+        right:20px;
+        padding:10px;
+        background: none;
+    }
+}
+
+
+
+
+.info_window{
+    color:black;
+}
+
+#filter form{
+    margin-bottom:32px;
+}
+
+#filter h2{
+    background: black;
+    margin: 0;
+    padding: 18px 20px 20px;
+}
+
+#filter .accordion-container{
+    border-top:1px solid rgb(21, 21, 21);
+}
+
+
+#filter .accordion-container .content{
+    padding:8px 30px 12px;
+    display:none;
+}
+#filter .accordion-container.expanded .content{
+    display:block;
+}
+
+
+#filter h3{
+    cursor: pointer;
+    position: relative;
+    padding:18px 20px 20px;
+    margin:0;
+    background-color: #0e0e0e;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.caret{
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right:34px;
+    top:26px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color:transparent;
+    border-top-color:inherit;
+
+}
+
+.expanded .caret{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 6px 6px;
+    border-color:transparent;
+    border-bottom-color:inherit;
+}
+
+
+label{
+    display:block;
+    position: relative;
+    margin-bottom:8px;
+    color: #e0e0e0;
+}
+
+
+/*
+ *  Checkbox styling
+ */
+label input[type='checkbox']{
+    display:none;
+}
+
+label span.checked_indicator {/* <-- style the artificial checkbox */
+    position: absolute;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    right:0;
+    bottom:0;
+    border:2px solid white;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+label input[type=checkbox]:checked + span.checked_indicator {
+    background: #34a238;
+}
+
+label span.checked_indicator .check_mark{
+    background: none;
+}
+
+label input[type=checkbox]:checked + span.checked_indicator .check_mark {
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background: url('/img/check.png');
+    background-size: contain;
+}
+
+
+
+/*
+ *   Slider styling
+ */
+.sliderWrapper{
+    margin:8px 0;
+}
+
+.sliderWrapper>span{
+    min-width: 4em;
+}
+.sliderWrapper>span:last-child{
+    text-align: right;
+}
+
+
+/* slider styling based on https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_rangeslider */
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    flex:2;
+    margin:12px 1.5em 0 1.5em;
+    height: 2px;
+    background: #3f8a41;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+    -webkit-transition: .1s;
+    transition: width .1s, height .1s;
+}
+
+.slider::-webkit-slider-thumb:active {
+    width: 20px;
+    height: 20px;
+}
+
+.slider::-moz-range-thumb:active {
+    width: 20px;
+    height: 20px;
+}
+
+.value_wrapper{
+    color: #bfbfbf;
+}
+
+
+
+
+
+/* material switch styling based on https://bootsnipp.com/snippets/featured/material-design-switch#comments */
+.material-switch > input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    width: 40px;
+}
+
+.material-switch > label::before {
+    background: rgb(80, 80, 80);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+
+
+
+
+.input-wrapper{
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding:10px 14px;
+    border:1px solid transparent;
+    border-radius: 2px;
+    background: #2d2d2d;
+    color:white;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    outline:none;
+    border:1px solid rgba(255,255,255,0.5);
+}
+button[type='submit']{
+    display:block;
+    margin:20px auto;
+    padding:8px 12px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    background: #7e44ec;
+    color:white;
+}
+
+button[type='submit']:hover{
+    background: #7C4DFF;
+    cursor:pointer;
+}
+
+button[type='submit']:focus{
+    outline:none;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+
+
+

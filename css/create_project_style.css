@@ -1,0 +1,10 @@
+#map {
+    height: 40vh;
+    width: 100%;
+    margin-bottom:30px;
+}
+
+#gatewayLocationHeadline{
+    margin-top: 30px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,31 @@
+.project-overview{
+    position: relative;
+    background:black;
+    border-radius: 2px;
+    margin-bottom: 14px;
+    padding:18px 20px 36px;
+    color:rgb(220,200,200);
+}
+
+
+.project-overview h2{
+    margin: 0 0 8px;
+    color:white;
+    font-weight: 400;
+}
+
+.project-overview div{
+    color:rgb(150,160,160);
+}
+
+.project-overview .attribute-name{
+    display: inline-block;
+    min-width: 7.2em;
+}
+
+.project-overview .test-link{
+    text-decoration: none;
+    position: absolute;
+    right:32px;
+    bottom:20px;
+}

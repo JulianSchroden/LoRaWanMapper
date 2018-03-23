@@ -1,0 +1,46 @@
+.content{
+    position: relative;
+    height:100%;
+    max-width:800px;
+    margin:4em auto 1em;
+}
+
+
+
+
+.fab{
+    border-radius:50%;
+    width:64px;
+    height:64px;
+    position:fixed;
+    bottom:36px;
+    right:48px;
+    background:#7e44ec;
+    text-align:center;
+    color:white;
+    font-size:32px;
+    line-height: 64px;
+    padding:10px;
+    font-weight:300;
+    cursor:pointer;
+    box-shadow: 3px 5px 15px rgba(0,0,0,.3),-1px -1px 20px rgba(0,0,0,.3);
+}
+
+.fab:hover{
+    background:#7C4DFF;
+}
+
+
+
+.backArrow{
+    position: absolute;
+    top:12px;
+    left:0;
+    opacity: 0.7;
+}
+
+.backArrow:hover{
+    opacity: 1;
+    cursor:pointer;
+}
+
