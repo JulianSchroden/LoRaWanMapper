@@ -7,7 +7,7 @@
 require_once "php/DatabaseHandler/ProjectDatabaseHandler.php";
 require_once "php/DatabaseHandler/TestDatabaseHandler.php";
 require_once "php/DatabaseHandler/TestSessionDataDatabaseHandler.php";
-require_once "php/config/LoRaMapperConfig.php";
+require_once "php/config/LoRaWanMapperConfig.php";
 
 // create new ProjectDatabaseHandler instance
 $projectDatabaseHandler = new ProjectDatabaseHandler();
@@ -80,13 +80,13 @@ else {
         $projectChooserDropdown .= " </div>";
     }
 
-    $mapsKey = LoRaMapperConfig::MAPS_KEY;
+    $mapsKey = LoRaWanMapperConfig::MAPS_KEY;
 
     echo "
     <!doctype html>
     <html>
         <head>
-            <title>LoRa Mapper</title>
+            <title>LoRaWan Mapper</title>
             <meta name='viewport' content='initial-scale=1.0'>
             <meta charset='utf-8'>
             <meta name='theme-color' content='#000000'>

@@ -4,7 +4,7 @@
  *  Licensed under the MIT License. See LICENSE file in the project root for full license information.
  */
 
-require_once __DIR__."/../config/LoRaMapperConfig.php";
+require_once __DIR__ . "/../config/LoRaWanMapperConfig.php";
 
 class LoginView {
 
@@ -14,7 +14,7 @@ class LoginView {
      */
     public static function create() {
 
-        $captchaKey = LoRaMapperConfig::CAPTCHA_KEYS["public"];
+        $captchaKey = LoRaWanMapperConfig::CAPTCHA_KEYS["public"];
         return "
 
         <!doctype html>

@@ -7,7 +7,7 @@
 require_once "DatabaseHandler/TestDatabaseHandler.php";
 require_once "DatabaseHandler/TestSessionDatabaseHandler.php";
 require_once "DatabaseHandler/TestSessionDataDatabaseHandler.php";
-require_once "config/LoRaMapperConfig.php";
+require_once "config/LoRaWanMapperConfig.php";
 
 /**
  *
@@ -16,7 +16,7 @@ require_once "config/LoRaMapperConfig.php";
  */
 
 // check if $_GET parameter "key" is set and equals the stated key
-if(isset($_GET["key"]) && $_GET["key"] === LoRaMapperConfig::TTN_HTTP_INTEGRATION_KEY) {
+if(isset($_GET["key"]) && $_GET["key"] === LoRaWanMapperConfig::TTN_HTTP_INTEGRATION_KEY) {
 
     // fetch the POST data and decode it
     $data        = file_get_contents('php://input');

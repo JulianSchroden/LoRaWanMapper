@@ -4,13 +4,13 @@
  *  Licensed under the MIT License. See LICENSE file in the project root for full license information.
  */
 
-    require_once __DIR__."/../config/LoRaMapperConfig.php";
+    require_once __DIR__ . "/../config/LoRaWanMapperConfig.php";
 	class DatabaseConnection {
 
-        const host     = LoRaMapperConfig::DATABASE_LOGIN["host"];
-        const user     = LoRaMapperConfig::DATABASE_LOGIN["user"];
-        const password = LoRaMapperConfig::DATABASE_LOGIN["password"];
-        const dbName   = LoRaMapperConfig::DATABASE_LOGIN["dbName"];
+        const host     = LoRaWanMapperConfig::DATABASE_LOGIN["host"];
+        const user     = LoRaWanMapperConfig::DATABASE_LOGIN["user"];
+        const password = LoRaWanMapperConfig::DATABASE_LOGIN["password"];
+        const dbName   = LoRaWanMapperConfig::DATABASE_LOGIN["dbName"];
 
 
 		public $pdoInstance;

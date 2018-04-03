@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adbc14b7-58ca-40dd-a4cc-a4aba08cb4b8" name="Default" comment="" />
+    <list default="true" id="adbc14b7-58ca-40dd-a4cc-a4aba08cb4b8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/LoRaWanMapper.jpg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/php/Backend.php" afterPath="$PROJECT_DIR$/php/Backend.php" />
+      <change beforePath="$PROJECT_DIR$/php/DatabaseHandler/DatabaseConnection.php" afterPath="$PROJECT_DIR$/php/DatabaseHandler/DatabaseConnection.php" />
+      <change beforePath="$PROJECT_DIR$/php/api.php" afterPath="$PROJECT_DIR$/php/api.php" />
+      <change beforePath="$PROJECT_DIR$/php/config/LoRaMapperConfig.php" afterPath="$PROJECT_DIR$/php/config/LoRaWanMapperConfig.php" />
+      <change beforePath="$PROJECT_DIR$/php/views/CreateProjectView.php" afterPath="$PROJECT_DIR$/php/views/CreateProjectView.php" />
+      <change beforePath="$PROJECT_DIR$/php/views/LoginView.php" afterPath="$PROJECT_DIR$/php/views/LoginView.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +21,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LICENSE">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -21,12 +32,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="17">
-                <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <first_editor relative-caret-position="222">
+                <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -34,16 +48,132 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DatabaseConnection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/DatabaseHandler/DatabaseConnection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseHandler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/DatabaseHandler/DatabaseHandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="88" column="41" lean-forward="true" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+              <folding>
+                <marker date="1522799288093" expanded="true" signature="1580:1752" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="1737:1752" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="2136:2535" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="2195:2527" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="2420:2527" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="2474:2506" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="3240:3254" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="3452:8708" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="3467:4115" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="4139:8686" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="4171:4575" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="4210:4473" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="4295:4451" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="4605:8538" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="4780:8519" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="4844:8495" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="4940:6447" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="5097:6416" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="6586:7410" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="6637:6932" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="6703:6837" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="6982:7379" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="7046:7344" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="7510:8376" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="7562:7855" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="7627:7760" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="7905:8296" ph="..." />
+                <marker date="1522799288093" expanded="true" signature="7969:8261" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoRaWanMapperConfig.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/config/LoRaWanMapperConfig.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="117" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeotaggedSignalDatabaseHandler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/DatabaseHandler/GeotaggedSignalDatabaseHandler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="48" />
+              <folding>
+                <marker date="1521740607839" expanded="true" signature="481:1129" ph="CREATE TABLE... IF" />
+                <marker date="1521740607839" expanded="true" signature="1286:1703" ph="INSERT INTO ${self::tableName}... " />
+                <marker date="1521740607839" expanded="true" signature="1949:2078" ph="SELECT `gate... ${self::tableName}" />
+                <marker date="1521740607839" expanded="true" signature="2715:3013" ph="SELECT `lati... ${self::tableName}" />
+                <marker date="1521740607839" expanded="true" signature="3419:3443" ph="SELECT MIN(`... ${self::tableName}" />
+                <marker date="1521740607839" expanded="true" signature="3564:3588" ph="SELECT MAX(`... ${self::tableName}" />
+                <marker date="1521740607839" expanded="true" signature="3708:3731" ph="SELECT MIN(`... ${self::tableName}" />
+                <marker date="1521740607839" expanded="true" signature="3851:3874" ph="SELECT MAX(`... ${self::tableName}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LoraWan</find>
+      <find>LoRa</find>
+      <find>Lora</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
@@ -68,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -77,15 +206,39 @@
               <item name="LoRaWanMapper" type="b2602c69:ProjectViewProjectNode" />
               <item name="LoRaWanMapper" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="LoRaWanMapper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoRaWanMapper" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="doc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LoRaWanMapper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoRaWanMapper" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LoRaWanMapper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoRaWanMapper" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LoRaWanMapper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoRaWanMapper" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DatabaseHandler" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,34 +265,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521824109546</updated>
-      <workItem from="1521824111621" duration="90000" />
+      <workItem from="1521824111621" duration="636000" />
+      <workItem from="1522780666001" duration="2520000" />
+      <workItem from="1522784267089" duration="813000" />
+      <workItem from="1522785095774" duration="7922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90000" />
+    <option name="totallyTimeSpent" value="11891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17239584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -154,11 +311,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -170,6 +335,144 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/DatabaseHandler/GeotaggedSignalDatabaseHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="48" />
+          <folding>
+            <marker date="1521740607839" expanded="true" signature="481:1129" ph="CREATE TABLE... IF" />
+            <marker date="1521740607839" expanded="true" signature="1286:1703" ph="INSERT INTO ${self::tableName}... " />
+            <marker date="1521740607839" expanded="true" signature="1949:2078" ph="SELECT `gate... ${self::tableName}" />
+            <marker date="1521740607839" expanded="true" signature="2715:3013" ph="SELECT `lati... ${self::tableName}" />
+            <marker date="1521740607839" expanded="true" signature="3419:3443" ph="SELECT MIN(`... ${self::tableName}" />
+            <marker date="1521740607839" expanded="true" signature="3564:3588" ph="SELECT MAX(`... ${self::tableName}" />
+            <marker date="1521740607839" expanded="true" signature="3708:3731" ph="SELECT MIN(`... ${self::tableName}" />
+            <marker date="1521740607839" expanded="true" signature="3851:3874" ph="SELECT MAX(`... ${self::tableName}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/DatabaseHandler/DatabaseHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/DatabaseHandler/DatabaseConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/config/LoRaWanMapperConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="88" column="41" lean-forward="true" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+          <folding>
+            <marker date="1522799288093" expanded="true" signature="1580:1752" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="1737:1752" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="2136:2535" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="2195:2527" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="2420:2527" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="2474:2506" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="3240:3254" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="3452:8708" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="3467:4115" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="4139:8686" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="4171:4575" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="4210:4473" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="4295:4451" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="4605:8538" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="4780:8519" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="4844:8495" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="4940:6447" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="5097:6416" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="6586:7410" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="6637:6932" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="6703:6837" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="6982:7379" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="7046:7344" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="7510:8376" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="7562:7855" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="7627:7760" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="7905:8296" ph="..." />
+            <marker date="1522799288093" expanded="true" signature="7969:8261" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="222">
+            <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

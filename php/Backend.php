@@ -6,13 +6,13 @@
 
 
 require_once "utils.php";
-require_once "config/LoRaMapperConfig.php";
+require_once "config/LoRaWanMapperConfig.php";
 session_start();
 
 
-$captchaSecret = LoRaMapperConfig::CAPTCHA_KEYS["private"];
-$userName      = LoRaMapperConfig::BACKEND_LOGIN["userName"];
-$password      = LoRaMapperConfig::BACKEND_LOGIN["password"];
+$captchaSecret = LoRaWanMapperConfig::CAPTCHA_KEYS["private"];
+$userName      = LoRaWanMapperConfig::BACKEND_LOGIN["userName"];
+$password      = LoRaWanMapperConfig::BACKEND_LOGIN["password"];
 
 
 
