@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adbc14b7-58ca-40dd-a4cc-a4aba08cb4b8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc/LoRaWanMapper.jpg" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change beforePath="$PROJECT_DIR$/php/Backend.php" afterPath="$PROJECT_DIR$/php/Backend.php" />
-      <change beforePath="$PROJECT_DIR$/php/DatabaseHandler/DatabaseConnection.php" afterPath="$PROJECT_DIR$/php/DatabaseHandler/DatabaseConnection.php" />
-      <change beforePath="$PROJECT_DIR$/php/api.php" afterPath="$PROJECT_DIR$/php/api.php" />
-      <change beforePath="$PROJECT_DIR$/php/config/LoRaMapperConfig.php" afterPath="$PROJECT_DIR$/php/config/LoRaWanMapperConfig.php" />
-      <change beforePath="$PROJECT_DIR$/php/views/CreateProjectView.php" afterPath="$PROJECT_DIR$/php/views/CreateProjectView.php" />
-      <change beforePath="$PROJECT_DIR$/php/views/LoginView.php" afterPath="$PROJECT_DIR$/php/views/LoginView.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,9 +29,9 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="222">
-                <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="85">
+                <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -71,7 +62,7 @@
       <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="-255">
               <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
@@ -268,12 +259,12 @@
       <workItem from="1521824111621" duration="636000" />
       <workItem from="1522780666001" duration="2520000" />
       <workItem from="1522784267089" duration="813000" />
-      <workItem from="1522785095774" duration="7922000" />
+      <workItem from="1522785095774" duration="10895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11891000" />
+    <option name="totallyTimeSpent" value="14864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -393,14 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/DatabaseHandler/DatabaseConnection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -462,14 +445,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="Gfm">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="222">
-            <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="85">
+            <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
             <folding />
           </first_editor>
           <second_editor />
