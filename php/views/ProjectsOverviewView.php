@@ -55,7 +55,7 @@ class ProjectsOverviewView {
                 <body>
                     <div class='title'>
                         <h1>Projects</h1>
-                        <a class='muted-link' href='?logout'>Logout</a>
+                        <a id='logout' class='muted-link' href='?logout'>Logout</a>
                     </div>
                    
                     <div class='content'>

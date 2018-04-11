@@ -76,7 +76,7 @@ function Decoder(bytes, port) {
 #### HTTP Integration
 - Set a process ID of your choice
 - Select the default device key as the *Access Key* which is used for downlinks
-- Type in your URL and append `php/api.php?key={YourIntegrationKey}` to it
+- Type in your URL and append `/php/api.php?key={YourIntegrationKey}` to it
 - Click on "Add integration"
 
 ![HTTP Integration configuration](doc/HTTP_Integration.png)
@@ -92,4 +92,4 @@ function Decoder(bytes, port) {
 
 ## Suggestions
 The LoRaWanTracker could be improved by:
-- use marker clusters to optimize performance
+- Using marker clusters to optimize performance

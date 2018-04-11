@@ -11,6 +11,11 @@ let geotaggedSignals=[]; // array containing all the project data and markers
 
 // callback for the maps api
 function initMap() {
+    let gatewayPosition={
+        lat: parseFloat($("#map").attr("data-lat")),
+        lng: parseFloat($("#map").attr("data-lng"))
+    };
+
     // create a new gogle.maps.Map instance
     map = new google.maps.Map(document.getElementById('map'), {
         center: gatewayPosition,
@@ -20,10 +25,6 @@ function initMap() {
     });
 
     // place a marker on the map which represents the gateway's location on the map
-    let gatewayPosition={
-        lat: parseFloat($("#map").attr("data-lat")),
-        lng: parseFloat($("#map").attr("data-lng"))
-    };
     let gatewayMarker = new google.maps.Marker({
         position : gatewayPosition,
         map      : map,

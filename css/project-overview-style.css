@@ -29,3 +29,9 @@
     right:32px;
     bottom:20px;
 }
+
+#logout {
+    position: absolute;
+    right: 35px;
+    top: 35px;
+}
